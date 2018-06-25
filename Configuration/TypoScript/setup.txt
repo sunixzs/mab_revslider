@@ -1,5 +1,6 @@
 tt_content {
-	mabrevslider_revolutionslider < lib.contentElement
+	#mabrevslider_revolutionslider < lib.contentElement
+	mabrevslider_revolutionslider < lib.fluidContent
 	mabrevslider_revolutionslider {
 		templateName = Revolutionslider.html
 		dataProcessing {
@@ -22,14 +23,14 @@ tt_content {
 
 
 # Add Fluid root paths (maybe you have to add these paths on another place in setup!)
-#lib.fluidContent {
-#	layoutRootPaths {
-#		210 = EXT:mab_revslider/Resources/Private/Layouts/
-#	}
-#	templateRootPaths {
-#		210 = EXT:mab_revslider/Resources/Private/Templates/
-#	}
-#	partialRootPaths {
-#		210 = EXT:mab_revslider/Resources/Private/Partials/
-#	}
-#}
+lib.fluidContent {
+	layoutRootPaths {
+		210 = EXT:mab_revslider/Resources/Private/Layouts/
+	}
+	templateRootPaths {
+		210 = EXT:mab_revslider/Resources/Private/Templates/
+	}
+	partialRootPaths {
+		210 = EXT:mab_revslider/Resources/Private/Partials/
+	}
+}
