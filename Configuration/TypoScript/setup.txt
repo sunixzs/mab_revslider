@@ -1,0 +1,35 @@
+tt_content {
+	mabrevslider_revolutionslider < lib.contentElement
+	mabrevslider_revolutionslider {
+		templateName = Revolutionslider.html
+		dataProcessing {
+			1 = MAB\MabRevslider\DataProcessing\RevolutionsliderProcessor
+			1 {
+				# path to the visual builder plugin. Must be in PATH_site.
+				path = revolutionslider/
+				
+				# the default header includes jquery
+				# the modified header includes not jquery, but the other scripts from revolution slider in version 5.4.5.2
+				includeDefaultRevolutionsliderHeader = 0
+
+				# generates an iframe which will be included automatically
+				# a height-observer is also included
+				useIframe = 1
+			}
+		}
+	}
+}
+
+
+# Add Fluid root paths (maybe you have to add these paths on another place in setup!)
+#lib.fluidContent {
+#	layoutRootPaths {
+#		210 = EXT:mab_revslider/Resources/Private/Layouts/
+#	}
+#	templateRootPaths {
+#		210 = EXT:mab_revslider/Resources/Private/Templates/
+#	}
+#	partialRootPaths {
+#		210 = EXT:mab_revslider/Resources/Private/Partials/
+#	}
+#}

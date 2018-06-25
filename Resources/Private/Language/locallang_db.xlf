@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-09-30T08:52:03Z" product-name="mab_revslider">
+		<header/>
+		<body>
+			<trans-unit id="plugin.Revolutionslider">
+				<source>Revolutionslider</source>
+			</trans-unit>
+			<trans-unit id="plugin.Revolutionslider.description">
+				<source>Einbinden des Revolutionsliders mithilfe des Alias aus dem Visual Builder.</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

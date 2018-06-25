@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.common {
+	elements {
+		mabrevslider_revolutionslider {
+			iconIdentifier = mabrevslider-revolutionslider
+			title = LLL:EXT:mab_revslider/Resources/Private/Language/locallang_db.xlf:plugin.Revolutionslider
+			description = LLL:EXT:mab_revslider/Resources/Private/Language/locallang_db.xlf:plugin.Revolutionslider.description
+			tt_content_defValues {
+				CType = mabrevslider_revolutionslider
+			}
+		}
+	}
+	show := addToList(mabrevslider_revolutionslider)
+}
